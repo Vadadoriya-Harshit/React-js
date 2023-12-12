@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+       "id": 1,
+       "name": "John Doe",
+       "email": "john@example.com",
+       "phone": "+1234567890"
+     },
+     {
+       "id": 2,
+       "name": "Alice Smith",
+       "email": "alice@example.com",
+       "phone": "+1987654321"
+     },
+     {
+       "id": 3,
+       "name": "Bob Johnson",
+       "email": "bob@example.com",
+       "phone": "+1555123456"
+     },
+     {
+       "id": 4,
+       "name": "Emily Davis",
+       "email": "emily@example.com",
+       "phone": "+1444333222"
+     },
+     {
+       "id": 5,
+       "name": "Michael Brown",
+       "email": "michael@example.com",
+       "phone": "+1777888999"
+     },
+     {
+       "id": 6,
+       "name": "Sophia Wilson",
+       "email": "sophia@example.com",
+       "phone": "+1888777666"
+     },
+     {
+       "id": 7,
+       "name": "Daniel Lee",
+       "email": "daniel@example.com",
+       "phone": "+1666555444"
+     },
+     {
+       "id": 8,
+       "name": "Olivia Taylor",
+       "email": "olivia@example.com",
+       "phone": "+1999444555"
+     },
+     {
+       "id": 9,
+       "name": "William Martinez",
+       "email": "william@example.com",
+       "phone": "+1222333444"
+     },
+     {
+       "id": 10,
+       "name": "Ella Anderson",
+       "email": "ella@example.com",
+       "phone": "+1333444555"
+     }
+   ]
+ 
+}

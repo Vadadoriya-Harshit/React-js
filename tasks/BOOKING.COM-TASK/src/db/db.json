@@ -1,0 +1,184 @@
+[
+    {
+      "id": 1,
+      "img_url": "https://picsum.photos/id/111/200/300",
+      "title": "This is a long and unique title for item 1",
+      "description": "Dummy description for item 1. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.5,
+      "review": 432,
+      "city": "Amreli"
+    },
+    {
+      "id": 2,
+      "img_url": "https://picsum.photos/id/112/200/300",
+      "title": "A unique and lengthy title for item 2 with more details",
+      "description": "Dummy description for item 2. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.7,
+      "review": 421,
+      "city": "Jamnagar"
+    },
+    {
+      "id": 3,
+      "img_url": "https://picsum.photos/id/113/200/300",
+      "title": "Item 3 with an extended and distinct title for variety",
+      "description": "Dummy description for item 3. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.2,
+      "review": 395,
+      "city": "Bangalore"
+    },
+    {
+      "id": 4,
+      "img_url": "https://picsum.photos/id/114/200/300",
+      "title": "A long and different title for item 4 to make it stand out",
+      "description": "Dummy description for item 4. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.8,
+      "review": 407,
+      "city": "Rajkot"
+    },
+    {
+      "id": 5,
+      "img_url": "https://picsum.photos/id/115/200/300",
+      "title": "Title for item 5 that is both unique and lengthy",
+      "description": "Dummy description for item 5. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.5,
+      "review": 419,
+      "city": "Mount-Abu"
+    },
+    {
+      "id": 6,
+      "img_url": "https://picsum.photos/id/116/200/300",
+      "title": "A distinct and extended title for item 6 to differentiate",
+      "description": "Dummy description for item 6. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.0,
+      "review": 430,
+      "city": "goa"
+    },
+    {
+      "id": 7,
+      "img_url": "https://picsum.photos/id/117/200/300",
+      "title": "This is item 7 with a long and unique title",
+      "description": "Dummy description for item 7. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.2,
+      "review": 413,
+      "city": "Morbi"
+    },
+    {
+      "id": 8,
+      "img_url": "https://picsum.photos/id/118/200/300",
+      "title": "A different and lengthy title for item 8 for diversity",
+      "description": "Dummy description for item 8. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.9,
+      "review": 428,
+      "city": "Porbandar"
+    },
+    {
+      "id": 9,
+      "img_url": "https://picsum.photos/id/119/200/300",
+      "title": "A unique and extended title for item 9 to set it apart",
+      "description": "Dummy description for item 9. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.7,
+      "review": 401,
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 10,
+      "img_url": "https://picsum.photos/id/120/200/300",
+      "title": "An extended and distinct title for item 10 to make it special",
+      "description": "Dummy description for item 10. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.2,
+      "review": 416,
+      "city": "Keral"
+    },
+    {
+      "id": 11,
+      "img_url": "https://picsum.photos/id/121/200/300",
+      "title": "This is a long and unique title for item 11",
+      "description": "Dummy description for item 11. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.9,
+      "review": 408,
+      "city": "Kolkata"
+    },
+    {
+      "id": 12,
+      "img_url": "https://picsum.photos/id/122/200/300",
+      "title": "A unique and lengthy title for item 12 with more details",
+      "description": "Dummy description for item 12. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.4,
+      "review": 424,
+      "city": "Karnataka"
+    },
+    {
+      "id": 13,
+      "img_url": "https://picsum.photos/id/123/200/300",
+      "title": "Item 13 with an extended and distinct title for variety",
+      "description": "Dummy description for item 13. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.6,
+      "review": 431,
+      "city": "Vadodara"
+    },
+    {
+      "id": 14,
+      "img_url": "https://picsum.photos/id/124/200/300",
+      "title": "A long and different title for item 14 to make it stand out",
+      "description": "Dummy description for item 14. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.8,
+      "review": 422,
+      "city": "Surat"
+    },
+    {
+      "id": 15,
+      "img_url": "https://picsum.photos/id/125/200/300",
+      "title": "Title for item 15 that is both unique and lengthy",
+      "description": "Dummy description for item 15. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.1,
+      "review": 420,
+      "city": "Bhopal"
+    },
+    {
+      "id": 16,
+      "img_url": "https://picsum.photos/id/126/200/300",
+      "title": "A distinct and extended title for item 16 to differentiate",
+      "description": "Dummy description for item 16. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.6,
+      "review": 414,
+      "city": "Indore"
+    },
+    {
+      "id": 17,
+      "img_url": "https://picsum.photos/id/127/200/300",
+      "title": "This is item 17 with a long and unique title",
+      "description": "Dummy description for item 17. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.4,
+      "review": 423,
+      "city": "Chandigarh"
+    },
+    {
+      "id": 18,
+      "img_url": "https://picsum.photos/id/128/200/300",
+      "title": "A different and lengthy title for item 18 for diversity",
+      "description": "Dummy description for item 18. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.3,
+      "review": 426,
+      "city": "Pune"
+    },
+    {
+      "id": 19,
+      "img_url": "https://picsum.photos/id/129/200/300",
+      "title": "A unique and extended title for item 19 to set it apart",
+      "description": "Dummy description for item 19. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 4.7,
+      "review": 404,
+      "city": "Mumbai"
+    },
+    {
+      "id": 20,
+      "img_url": "https://picsum.photos/id/130/200/300",
+      "title": "An extended and distinct title for item 20 to make it special",
+      "description": "Dummy description for item 20. This is the first line of the description. Here comes the second line with more details. The third line continues with additional information. Line four provides some insights, and finally, line five concludes the description.",
+      "rate": 3.9,
+      "review": 412,
+      "city": "Delhi"
+    }
+  ]
+
+  

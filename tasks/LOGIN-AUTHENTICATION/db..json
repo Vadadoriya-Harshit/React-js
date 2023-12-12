@@ -1,0 +1,25 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "firstName": "Harshit",
+      "lastName": "Vadadoriya",
+      "email": "harshitpatelv9@gmail.com",
+      "password": "elv9@gmail.com"
+    },
+    {
+      "firstName": "mayur",
+      "lastName": "sonagra",
+      "email": "mayursonagra@gmail.com",
+      "password": "harshit",
+      "id": 2
+    },
+    {
+      "firstName": "dharmesh",
+      "lastName": "panchal",
+      "email": "panchaldharmesh02@gmail.com",
+      "password": "dharmesh",
+      "id": 3
+    }
+  ]
+}

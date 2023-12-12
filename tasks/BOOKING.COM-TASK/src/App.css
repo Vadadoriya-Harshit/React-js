@@ -1,0 +1,117 @@
+header{
+  background-color: #003b95;
+}
+*{
+  user-select: none;
+}
+nav{
+  text-decoration: none !important;
+}
+header .btn-hover:hover,.help:hover, nav ul li:hover,.comon-btn:hover{
+  background-color: rgba(115, 115, 160, 0.571) !important;
+}
+
+nav ul li{
+  border-radius: 23px;
+}
+nav ul li{
+  border: 2px solid transparent !important;
+}
+
+nav ul li:hover{
+  border: 2px solid white !important;
+}
+nav:nth-child(1) ul li
+{
+   border: 2px solid white;
+   margin: 10px;
+   margin-inline: 0px;
+}
+.slogan{
+  border: 1px solid gray !important;
+  border-radius: 23px;
+}
+.fa-check{
+  color: rgb(81, 167, 81);
+}
+.api img{
+  width: 200px;
+  height: 200px !important;
+}
+.start{
+  color: rgba(255, 255, 0, 0.556)
+}
+.banner-info{
+  background: linear-gradient(90deg,#000 0,transparent 11.5%),linear-gradient(270deg,#000 0,transparent 11.5%);
+}
+.banner-1{
+  background: url(../public/banner.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;   
+  position: relative !important;
+}
+.actions-work{
+  position: absolute;
+  top: 85%;
+  left: 0%;
+}
+.trends img{
+  height: 300px;
+}
+#delhi,#bangalore,#Chennai,#Mumbai,#Kolkaata{
+  position: relative;
+}
+#delhi::before,#bangalore::before,#Chennai::before,#Kolkaata::before,#Mumbai::before{
+  content: "New Delhi";
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+   font-weight: bol;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#delhi:hover::before,#bangalore:hover::before,#Chennai:hover::before,#Mumbai:hover::before,#Kolkaata:hover::before{
+  background-color: #003c9515;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  cursor: pointer;
+}
+#bangalore::before{
+  content: "bangalore";
+}
+#Chennai::before{
+  content: "Chennai";
+}
+#Mumbai::before{
+  content: "Mumbai";
+}
+#Mumbai::before{
+  content: "Mumbai";
+}
+#Mumbai::before{
+  content: "Mumbai";
+}
+#Kolkata::before{
+  content: "Kolkata";
+}
+
+
+
+@media(max-width:992px){
+  .actions-work{
+    position: static;
+  }
+.banner-1{
+  background-size: 250% 100%;
+  background-position-x: -300px;
+}
+}
+@media(max-width:448px)
+{
+  .actions{
+    display: none;
+  }
+ 
+}
