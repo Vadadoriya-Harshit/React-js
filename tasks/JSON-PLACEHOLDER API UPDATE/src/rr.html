@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Scramble Game</title>
+  </head>
+  <body>
+    <h1>Word Scramble Game</h1>
+    <div id="game-container">
+      <p id="scrambled-word">Scrambled Word: <span id="word-display"></span></p>
+      <input type="text" id="guess-input" placeholder="Enter your guess" />
+      <button id="submit-button">Submit</button>
+      <button>
+        <a href="">nextword</a>
+      </button>
+      <p id="result-message"></p>
+    </div>
+
+    <script>
+      const words = ["apple", "banana", "cherry", "orange", "grape"];
+      let scrambledWord = "";
+      let wordToGuess = "";
+
+      function selectRandomWord() {
+        wordToGuess = words[Math.floor(Math.random() * words.length)];
+        const shuffledWord = wordToGuess
+          .split("")
+          .sort(() => 0.5 - Math.random())
+          .join("");
+        document.getElementById("word-display").innerHTML = shuffledWord;
+      }
+
+      function checkGuess() {
+        const playerGuess = document
+          .getElementById("guess-input")
+          .value.toLowerCase();
+        if (playerGuess === wordToGuess) {
+          document.getElementById("result-message").innerHTML =
+            "Correct! You unscrambled the word.";
+        } else {
+          document.getElementById("result-message").innerHTML =
+            "Incorrect. Try again.";
+        }
+      }
+
+      const submitButton = document.getElementById("submit-button");
+      submitButton.addEventListener("click", checkGuess);
+
+      // Initial setup
+      selectRandomWord();
+    </script>
+  </body>
+</html>
