@@ -1,0 +1,30 @@
+header{
+  background-color: #003b95;
+   user-select: none;
+}
+nav{
+  text-decoration: none !important;
+}
+header .btn-hover:hover,.help:hover, nav ul li:hover{
+  background-color: rgba(115, 115, 160, 0.571) !important;
+}
+nav ul li{
+  border-radius: 23px;
+}
+nav ul li:hover{
+  border: 2px solid white;
+}
+nav:nth-child(1) ul li
+{
+   border: 2px solid white;
+   margin: 10px;
+   margin-inline: 0px;
+}
+
+@media(max-width:448px)
+{
+  .actions{
+    display: none;
+  }
+ 
+}

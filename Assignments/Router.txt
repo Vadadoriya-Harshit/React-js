@@ -1,0 +1,114 @@
+------------------Router---------------------
+1.Create React app with modules and lazy loading (Admin-user module with
+child Router and outlet)?
+
+Ans-
+
+Create React app with modules and lazy loading (Admin-user module with
+child Router and outlet)
+
+Step 1: Create a new React app using Create React App.
+
+npx create-react-app lazy-loading-app
+cd lazy-loading-app
+
+Step 2: Install the necessary dependencies.
+
+npm install react-router-dom
+
+Step 3: Create your project structure. Organize your project like this:
+
+src/
+  - modules/
+    - Admin/
+      - Admin.js
+    - User/
+      - User.js
+  - App.js
+  - index.js
+
+Step 4: Define your modules.
+
+In Admin.js and User.js, you can define the components and routes for the respective modules. 
+Here's an example structure for Admin.js
+
+// Admin.js
+import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+
+import AdminHome from './AdminHome';
+import AdminSettings from './AdminSettings';
+
+function Admin() {
+  return (
+    <div>
+      <h2>Admin Module</h2>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/admin/home">Home</Link>
+          </li>
+          <li>
+            <Link to="/admin/settings">Settings</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Switch>
+        <Route path="/admin/home">
+          <AdminHome />
+        </Route>
+        <Route path="/admin/settings">
+          <AdminSettings />
+        </Route>
+      </Switch>
+    </div>
+  );
+}
+
+export default Admin;
+
+Step 5: Set up routing in App.js.
+
+// App.js
+import React, { lazy, Suspense } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+const Admin = lazy(() => import('./modules/Admin/Admin'));
+const User = lazy(() => import('./modules/User/User'));
+
+function App() {
+  return (
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route path="/admin" component={Admin} />
+          <Route path="/user" component={User} />
+        </Switch>
+      </Suspense>
+    </Router>
+  );
+}
+
+export default App;
+
+Step 6: Render your app.
+
+// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+Step 7: Start your development server.
+
+Run the app using npm start:
+
+npm start
