@@ -1,0 +1,52 @@
+{
+  "Employe": [
+    {
+      "id": 1,
+      "name": "John Dave",
+      "email": "johnDave@example.com",
+      "phone": "0000000000"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "phone": "555-555-5555"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "phone": "111-222-3333"
+    },
+    {
+      "id": 5,
+      "name": "Michael Clark",
+      "email": "michael@example.com",
+      "phone": "444-444-4444"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Brown",
+      "email": "sophia@example.com",
+      "phone": "777-777-7777"
+    },
+    {
+      "id": 7,
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "phone": "888-888-8888"
+    },
+    {
+      "id": 8,
+      "name": "mayur",
+      "email": "mayur@gmail.com",
+      "phone": "07861894713"
+    },
+    {
+      "id": 9,
+      "name": "dharmik",
+      "email": "dharmik@gmail.com",
+      "phone": "9624121369"
+    }
+  ]
+}
