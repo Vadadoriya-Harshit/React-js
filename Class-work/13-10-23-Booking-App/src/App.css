@@ -1,0 +1,84 @@
+.a
+{
+    margin-left: 10px;
+    background-color:#003b95 !important;
+}
+.Container
+{
+    padding-top: 20px;
+    width: auto;
+
+}
+.child
+{
+    position: absolute;
+    top:95%;
+    left:18%;
+    /* border:2px solid orange; */
+    /* border-radius: 10px; */
+
+}
+.para
+{
+    margin-bottom: 50px;
+}
+.child1
+{
+    border-radius: 5px;
+}
+.parent
+{
+    position: relative;
+    background-color:#003b95 !important;
+   
+}
+.btn
+{
+    background-color:#003b95 !important;
+}
+.btn1:hover
+{
+    background-color:  rgb(191, 191, 235);
+    border: 2px solid;
+}
+.menu
+{
+    list-style-type: none;
+    display: inline-block;
+}
+@media(max-width:1000px)
+{
+    .child{
+        /* left:0;
+        background-color: #003b95;
+        padding: 0;
+        width:100%;
+        padding:5px; */
+        position: static;
+        width:100%;
+        
+    }
+    .child1{
+        width:100%;
+    }
+}
+.container1
+{
+    position:relative;
+    display: inline;
+}
+.calendar1
+{
+    padding: 20px;
+    border:2px solid gray;
+    cursor: pointer;
+}
+.daterange
+{
+    position: absolute;
+    top:150%;
+    left:0;
+}
+.rdrDefinedRangesWrapper {
+    display: none;
+}
