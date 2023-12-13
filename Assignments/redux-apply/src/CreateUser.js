@@ -26,7 +26,7 @@ function CreateUser() {
         // Dispatching an action to add a new user with entered details
         dispatch(addUsers({ id: users[users.length - 1].id + 1, name, email }));
         
-        // Navigating back to the home page after adding the user
+        // Navigating back to the home  .page after adding the user
         navigate('/');
     };
 

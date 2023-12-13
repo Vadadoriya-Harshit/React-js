@@ -12,10 +12,21 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Home from './Home'
+import Home from './Home';
+import WelcomePage from './Welcome';
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 const defaultTheme = createTheme();
 
+
 export default function SignIn() {
+
+  useEffect(()=>{
+    fetch('http://localhost:8000/Users').then((res) => {
+      alert('Registered successfully....!');
+      go('/login');
+    });
+  },[])
   const [formData, setFormData] = React.useState({
     email: '',
     password: '',
@@ -31,9 +42,10 @@ export default function SignIn() {
     return emailRegex.test(email);
   };
 
+  const go =useNavigate();
+
   const handleSubmit = (event) => {
     event.preventDefault();
-
     let newErrors = {};
     let isValid = true;
 
@@ -52,10 +64,13 @@ export default function SignIn() {
     if (isValid) {
       // Form is valid, proceed with submission
       console.log('Form submitted:', formData);
+      go('/WelcomePage');
+      
     } else {
       console.log('Form has errors:', newErrors);
       // Handle errors, such as displaying error messages to the user
     }
+   
   };
 
   const handleInputChange = (event) => {
@@ -118,7 +133,8 @@ export default function SignIn() {
             />
             
          
-           <Button
+       
+         <Button
               type="submit"
               fullWidth
               variant="contained"
@@ -126,6 +142,7 @@ export default function SignIn() {
             >
               Sign In
             </Button>
+        
          
             <Grid container justifyContent="flex-end">
               <Grid item>
@@ -139,7 +156,7 @@ export default function SignIn() {
                 </Link>
               </Grid>
             </Grid>
-          </Box>
+          </Box>              
         </Box>
       </Container>
     </ThemeProvider>
