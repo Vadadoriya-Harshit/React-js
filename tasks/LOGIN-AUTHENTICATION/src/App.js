@@ -9,6 +9,7 @@ import WelcomePage from './Welcome';
 function App() {
   return (
     <>
+   
      <BrowserRouter>
      <Routes>
      <Route path='/'element={<Home/>}></Route>
