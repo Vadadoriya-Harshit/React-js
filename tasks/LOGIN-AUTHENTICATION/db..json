@@ -6,13 +6,6 @@
       "email": "vivek@gmail.com",
       "password": "Vivek@123",
       "id": 1
-    },
-    {
-      "firstName": "xyz",
-      "lastName": "xyz",
-      "email": "xyz@gmail.com",
-      "password": "12345678",
-      "id": 2
     }
   ]
 }
