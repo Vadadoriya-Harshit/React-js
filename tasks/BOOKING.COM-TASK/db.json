@@ -1,0 +1,155 @@
+{
+  "Hotels": [
+    {
+      "name": "Hotel A",
+      "city": "New York",
+      "description": "This is a description about Hotel A in New York.",
+      "rating": 4.5,
+      "image": "https://picsum.photos/id/1015/200/300"
+    },
+    {
+      "name": "Hotel B",
+      "city": "Los Angeles",
+      "description": "This is a description about Hotel B in Los Angeles.",
+      "rating": 4.2,
+      "image": "https://picsum.photos/id/1016/200/300"
+    },
+    {
+      "name": "Hotel C",
+      "city": "Chicago",
+      "description": "This is a description about Hotel C in Chicago.",
+      "rating": 3.8,
+      "image": "https://picsum.photos/id/1018/200/300"
+    },
+    {
+      "name": "Hotel D",
+      "city": "Miami",
+      "description": "This is a description about Hotel D in Miami.",
+      "rating": 4.0,
+      "image": "https://picsum.photos/id/1019/200/300"
+    },
+    {
+      "name": "Hotel E",
+      "city": "San Francisco",
+      "description": "This is a description about Hotel E in San Francisco.",
+      "rating": 4.7,
+      "image": "https://picsum.photos/id/1020/200/300"
+    },
+    {
+      "name": "Hotel F",
+      "city": "Seattle",
+      "description": "This is a description about Hotel F in Seattle.",
+      "rating": 4.3,
+      "image": "https://picsum.photos/id/1021/200/300"
+    },
+    {
+      "name": "Hotel G",
+      "city": "Denver",
+      "description": "This is a description about Hotel G in Denver.",
+      "rating": 4.1,
+      "image": "https://picsum.photos/id/1022/200/300"
+    },
+    {
+      "name": "Hotel H",
+      "city": "Houston",
+      "description": "This is a description about Hotel H in Houston.",
+      "rating": 4.6,
+      "image": "https://picsum.photos/id/1023/200/300"
+    },
+    {
+      "name": "Hotel I",
+      "city": "Phoenix",
+      "description": "This is a description about Hotel I in Phoenix.",
+      "rating": 4.4,
+      "image": "https://picsum.photos/id/1024/200/300"
+    },
+    {
+      "name": "Hotel J",
+      "city": "Philadelphia",
+      "description": "This is a description about Hotel J in Philadelphia.",
+      "rating": 3.9,
+      "image": "https://picsum.photos/id/1025/200/300"
+    },
+    {
+      "name": "Hotel K",
+      "city": "San Antonio",
+      "description": "This is a description about Hotel K in San Antonio.",
+      "rating": 4.8,
+      "image": "https://picsum.photos/id/1026/200/300"
+    },
+    {
+      "name": "Hotel L",
+      "city": "San Diego",
+      "description": "This is a description about Hotel L in San Diego.",
+      "rating": 3.7,
+      "image": "https://picsum.photos/id/1027/200/300"
+    },
+    {
+      "name": "Hotel M",
+      "city": "Dallas",
+      "description": "This is a description about Hotel M in Dallas.",
+      "rating": 4.0,
+      "image": "https://picsum.photos/id/1028/200/300"
+    },
+    {
+      "name": "Hotel N",
+      "city": "San Jose",
+      "description": "This is a description about Hotel N in San Jose.",
+      "rating": 4.5,
+      "image": "https://picsum.photos/id/1029/200/300"
+    },
+    {
+      "name": "Hotel O",
+      "city": "Austin",
+      "description": "This is a description about Hotel O in Austin.",
+      "rating": 3.5,
+      "image": "https://picsum.photos/id/1029/200/300"
+    },
+    {
+      "name": "Hotel P",
+      "city": "Ahmedabad",
+      "description": "This is a description about Hotel P in Jacksonville.",
+      "rating": 4.3,
+      "image": "https://picsum.photos/id/1031/200/300"
+    },
+    {
+      "name": "Hotel Q",
+      "city": "Morbi",
+      "description": "This is a description about Hotel Q in Fort Worth.",
+      "rating": 4.7,
+      "image": "https://picsum.photos/id/1032/200/300"
+    },
+    {
+      "name": "Hotel R",
+      "city": "Goa",
+      "description": "This is a description about Hotel R in Columbus.",
+      "rating": 3.9,
+      "image": "https://picsum.photos/id/1033/200/300"
+    },
+    {
+      "name": "Hotel S",
+      "city": "Amreli",
+      "description": "This is a description about Hotel S in Charlotte.",
+      "rating": 4.2,
+      "image": "https://picsum.photos/id/1035/200/300"
+
+    },
+    {
+      "name": "Hotel T",
+      "city": "jamkhambhaliya",
+      "description": "This is a description about Hotel T in Indianapolis.",
+      "rating": 4.6,
+      "image": "https://picsum.photos/id/1035/200/300"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

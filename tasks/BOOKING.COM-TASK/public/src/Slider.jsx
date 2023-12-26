@@ -26,7 +26,7 @@ function App() {
   const slidesPerView = windowWidth < 992 ? 1 : 2;
 
   return (
-    <div className=''>
+    <div className='p-5'>
       <Swiper
         slidesPerView={slidesPerView}
         spaceBetween={30}

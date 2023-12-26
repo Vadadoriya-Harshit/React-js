@@ -96,17 +96,7 @@ nav:nth-child(1) ul li
 #Kolkata::before{
   content: "Kolkata";
 }
-.swiper{
-  display: none;
-  height: 220px;
-}
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: var(--swiper-pagination-bottom, 8px);
-  top: var(--swiper-pagination-top, auto);
-  left: 0;
-  top: 90% !important;
-  width: 100%;
-}
+
 
 
 

@@ -4,12 +4,11 @@ import{ useState } from 'react';
 import Cal from './Cal';
 import { Link } from 'react-router-dom';
 import Dropdownfunc from './Dropdown';
+import search from './Home';
 
 
 function Actions({userData}) {
     const [freshVal, setfreshVal] = useState("");
-    const [Search,setsearch]=useState("");
-
   const [checkInDate, setCheckInDate] = useState(new Date);
   const [checkOutDate, setCheckOutDate] = useState(new Date);
   const handleCheckInDateChange = (date) => {
@@ -18,11 +17,9 @@ function Actions({userData}) {
   const handleCheckOutDateChange = (date) => {
     setCheckOutDate(date);
   };   
-  const handelSearch = ()=>{
-      setsearch(freshVal);
-  }
- const isvalid = freshVal!=="";
 
+
+  const [cities, setCities] = useState([]);
   return (
     <div>
       <Container className='bg-white' >
@@ -53,13 +50,9 @@ function Actions({userData}) {
         <Dropdownfunc/>
         </Col>
         <Col lg={2} className="border border-lg-end border-warning border-3 d-flex justify-content-center align-items-center">
-      {
-        isvalid ?   <Link to={`/search/${freshVal}`} disabled={isvalid}>
-        <button   className='btn btn-primary btn-lg' onClick={handelSearch}>
-         Search 
-        </button>
-      </Link>:"search"
-      }
+          <button className='btn btn-primary btn-lg'>
+           Search 
+          </button>
         </Col>
       </Row>
     </Container>    
