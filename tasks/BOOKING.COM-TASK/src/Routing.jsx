@@ -1,42 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import { Routes, Route, Outlet, useLocation } from 'react-router-dom';
-import Flights from './Flights';
-import Car from './Car';
-import Hotel from './Hotel';
-import Attraction from './Attractions';
-import Home from './Home';
-import Search from './Search';
-import Loader from './Loader'; // Import the Loader component
+import React, { Suspense } from 'react';
+import Loader from './Loader';
+
+import { Routes, Route, Outlet } from 'react-router-dom';
+const Flights = React.lazy(() => import('./Flights'));
+const Hotel = React.lazy(() => import('./Hotel'));
+const Car = React.lazy(() => import('./Car'));
+const Attraction = React.lazy(() => import('./Attractions'));
+const Home = React.lazy(() => import('./Home'));
+const Search = React.lazy(() => import('./Search'));
+const Gallery = React.lazy(() => import('./gallery'));
 
 function Routing() {
-  const [loading, setLoading] = useState(false);
-  const location = useLocation();
-
-  useEffect(() => {
-    showLoader(); 
-  }, [location]);
-
-  const showLoader = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000); 
-  };
-  
   return (
-    <div>
-      {loading && <Loader />}
-
+    <Suspense fallback={<Loader />}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/flights" element={<Flights />} />
-        <Route path="/Car" element={<Car />} />
-        <Route path="/Hotel" element={<Hotel />} />
-        <Route path="/Attrac" element={<Attraction />} />
+        <Route path="/Car" element={<Car/>} />
+        <Route path="/hotel" element={<Hotel />} />
+        <Route path="/attractions" element={<Attraction />} />
         <Route path="/search/:value" element={<Search />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Outlet />
-    </div>
+    </Suspense>
   );
 }
 

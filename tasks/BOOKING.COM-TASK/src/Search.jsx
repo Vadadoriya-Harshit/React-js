@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import { Link, useParams } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
-
+import gallery from './gallery';
+import Model1 from './Model1';
 function Search() {
   const { value } = useParams();
   const [hotels, setHotels] = useState([]);
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
+  const [showfull, setShowfull] = useState(false);
 
   function handleShow(breakpoint) {
     setFullscreen(breakpoint);
@@ -23,7 +24,9 @@ function Search() {
   const filteredItems = hotels.filter(
     (item) => item.city.toLowerCase().includes(value.toLowerCase())
   );
-   
+  const [change,setchange]=useState("");
+  
+
   return (
     <>
       {hotels.length > 0 ? (
@@ -83,18 +86,10 @@ function Search() {
           <Modal.Title></Modal.Title>
         </Modal.Header>
         <Modal.Body>
-    <div className="coontainer-fluid">
-      <div className="row">
-       <div className="col-lg-9">
-        <div className="row">
-          
-        </div>
-       </div>
-        <div className="col-lg- 3"></div>
-      </div>
-    </div>
+       <Model1/>
         </Modal.Body>
       </Modal>
+   
 
     </>
   );
